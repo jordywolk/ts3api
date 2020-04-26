@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel package for TeamSpeak3 Server API
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jordywolk/ts3api.svg?style=flat-square)](https://packagist.org/packages/jordywolk/ts3api)
 [![Build Status](https://img.shields.io/travis/jordywolk/ts3api/master.svg?style=flat-square)](https://travis-ci.org/jordywolk/ts3api)
