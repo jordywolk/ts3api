@@ -1,0 +1,54 @@
+{
+    "name": "jordywolk/ts3api",
+    "description": "Laravel package for the new TS3 server API",
+    "keywords": [
+        "jordywolk",
+        "ts3api"
+    ],
+    "homepage": "https://github.com/jordywolk/ts3api",
+    "license": "GPL-2.0-or-later",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jordy van der Wolk",
+            "email": "jordy@jwolk.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jordywolk\\Ts3api\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jordywolk\\Ts3api\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jordywolk\\Ts3api\\Ts3apiServiceProvider"
+            ],
+            "aliases": {
+                "Ts3api": "Jordywolk\\Ts3api\\Ts3apiFacade"
+            }
+        }
+    }
+}
