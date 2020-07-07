@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jordywolk/ts3api.svg?style=flat-square)](https://packagist.org/packages/jordywolk/ts3api)
 [![Build Status](https://img.shields.io/travis/jordywolk/ts3api/master.svg?style=flat-square)](https://travis-ci.org/jordywolk/ts3api)
-[![Quality Score](https://img.shields.io/scrutinizer/g/jordywolk/ts3api.svg?style=flat-square)](https://scrutinizer-ci.com/g/jordywolk/ts3api)
 [![Total Downloads](https://img.shields.io/packagist/dt/jordywolk/ts3api.svg?style=flat-square)](https://packagist.org/packages/jordywolk/ts3api)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
