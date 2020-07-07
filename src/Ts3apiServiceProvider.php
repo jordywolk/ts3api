@@ -2,7 +2,9 @@
 
 namespace Jordywolk\Ts3api;
 
+use function foo\func;
 use Illuminate\Support\ServiceProvider;
+use Spatie\Activitylog\CleanActivitylogCommand;
 
 class Ts3apiServiceProvider extends ServiceProvider
 {
@@ -52,9 +54,12 @@ class Ts3apiServiceProvider extends ServiceProvider
         // Automatically apply the package configuration
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'ts3api');
 
-        // Register the main class to use with the facade
-        $this->app->singleton('ts3api', function () {
-            return new Ts3api;
+        $this->app->bind('client', function($app) {
+           return new Client();
+        });
+
+        $this->app->bind('channel', function($app) {
+            return new Channel();
         });
     }
 }
