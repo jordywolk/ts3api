@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jordywolk/ts3api.svg?style=flat-square)](https://packagist.org/packages/jordywolk/ts3api)
 [![Build Status](https://img.shields.io/travis/jordywolk/ts3api/master.svg?style=flat-square)](https://travis-ci.com/jordywolk/ts3api)
-[![Coverage Status](https://coveralls.io/repos/github/jordywolk/ts3api/badge.svg?branch=master&style=flat-square)](https://coveralls.io/github/jordywolk/ts3api?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/jordywolk/ts3api.svg?style=flat-square)](https://packagist.org/packages/jordywolk/ts3api)
 
 Currently WIP.
