@@ -13,11 +13,16 @@
             "name": "Jordy van der Wolk",
             "email": "jordy@jwolk.nl",
             "role": "Developer"
+        },
+        {
+            "name": "Justin Rijsdijk",
+            "email": "Justin@justinrijsdijk.nl",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.1|^8.0",
-        "illuminate/support": "^7.0",
+        "illuminate/support": "^8.0",
         "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
